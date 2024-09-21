@@ -1,0 +1,133 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-image: url(../public/bg.png);
+	background-size: cover;
+	font-family: poppins;
+}
+
+.app-wrap {
+	background-color: white;
+	box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+	width: 700px;
+	height: auto;
+	border-radius: 15px;
+	margin: 0 auto;	
+	text-align: center;
+	background-color: #f4f4f4;
+	padding: 5px 0 20px 0;
+}
+
+h1 {
+	background-color: #f4f4f4;
+	color: #06940d;
+	font-size: 45px;
+	text-align: center;
+	padding: 0 34px 0 34px;
+}
+
+.btn {
+	text-align: left;
+	margin-left: 40px;
+}
+
+.delbtn,
+.editbtn {
+	font-size: 18px;
+	margin: 15px 0 40px 0;
+}
+
+.delbtn {
+	margin-left: 20px;
+	color: white;
+  width: 100px;
+  height: 35px;
+  border: none;
+  border-radius: 3px;
+  background-color: red;
+  text-align: center;
+  font-family: poppins;
+}
+
+.editbtn {
+	color: white;
+  width: 100px;
+  height: 35px;
+  border: none;
+  border-radius: 3px;
+  background-color: #075e1d;
+  text-align: center;
+  font-family: poppins;
+}
+
+
+input[type=checkbox] {
+	width: 18px;
+	height: 18px;
+	margin-right: 20px;
+}
+
+li {
+	text-align: left;
+	font-weight: bold;
+	list-style-type: none;
+	padding-top: 25px;
+	font-weight: 500;
+	font-size: 25px;
+	margin-left: 40px;
+	color: #494f55;
+}
+
+.form-wrap {
+	margin: 100px 0 60px 0;
+}
+
+input[type=text] {
+		display: inline-block;
+	 	width: 250px;
+  	height: 50px;
+  	border: 2px solid #0ea050;
+  	color: #0ea050;;
+  	padding: 0 0 0 15px;
+  	margin-left: 20px;
+  	background-color: #f4f4f4;
+	 	font-weight: 400;
+	 	font-size: 18px;
+	 	justify-content: center;
+	 	margin: 0 auto;
+}
+
+.add-task-btn {
+  width: 150px;
+  height: 50px;
+  border: none;
+  background-color: #0ea050;;
+  color: white;
+  text-align: center;
+  font-family: poppins;
+  padding: 1px 0 2px 0;
+  font-size: 20px;
+}
+
+::placeholder {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.task-div {
+	background: white;
+	border-radius: 15px;
+	width: 500px;
+	margin: 0 auto;
+	margin-bottom: 20px;
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.task-div:nth-child(odd) {
+		background: white;
+}
